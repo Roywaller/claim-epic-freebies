@@ -15,7 +15,7 @@ jobs:
     claim:
         runs-on: ubuntu-latest
 
-        timeout-minutes: 5 # Automatically stop after 5 minutes
+        timeout-minutes: 6 # Automatically stop after 5 minutes
 
         steps:
             - name: Setup repo
